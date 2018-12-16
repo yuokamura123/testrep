@@ -8,7 +8,7 @@
         <ul>
             <li>会社名：{{ $company->com_name }}</li>
             <li>社長：{{ $company->incharge_name }}</li>
-            <li>所在地：{{ $company->prefecture }}</li>
+            <li>所在地：{{ $company->prefecture }}{{ $company->city }}</li>
         </ul>
         @endforeach
     </div>
